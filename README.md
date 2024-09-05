@@ -12,9 +12,9 @@ The grid is represented by cells that change color to indicate different states:
 6. Purple: Final path from start to end
 
 How it works: 
-Choose Algorithm: Press A for A* and D for Dijkstra.
-Set Start & End: Left-click to place the start and end points on the grid. The first click will set the start (orange) and the second will set the end (turquoise).
-Add Barriers: Continue left-clicking to create barriers (black) on the grid.
-Start the Algorithm: Press Space to start the selected algorithm.
-Reset: Press C to clear the grid and start again.
+1. Choose Algorithm: Press A for A* and D for Dijkstra.
+2. Set Start & End: Left-click to place the start and end points on the grid. The first click will set the start (orange) and the second will set the end (turquoise).
+3. Add Barriers: Continue left-clicking to create barriers (black) on the grid.
+4. Start the Algorithm: Press Space to start the selected algorithm.
+5. Reset: Press C to clear the grid and start again.
 
