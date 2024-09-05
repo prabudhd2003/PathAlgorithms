@@ -1,20 +1,16 @@
 Pathfinding Algorithm Visualization
 
-This project implements and visualizes two pathfinding algorithms, A* and Dijkstra, using Python and the Pygame library. 
-The goal is to show how these algorithms work in real time, enabling users to create start and end points, set up barriers, and watch the algorithm find the shortest path.
+This project visualizes two pathfinding algorithms, A* and Dijkstra, using Python and the Pygame library. The goal is to let users interactively create start and end points, set barriers, and watch the algorithm find the shortest path in real-time.
 
-The grid is represented by cells that change color to indicate different states:
-1. Orange: Start point
-2. Turquoise: End point
-3. Black: Barrier/Obstacle
-4. Green: Cells turn green when they are added to the open set
-5. Red: Closed cells that have already been evaluated
-6. Purple: Final path from start to end
-
-How it works: 
-1. Choose Algorithm: Press A for A* and D for Dijkstra.
-2. Set Start & End: Left-click to place the start and end points on the grid. The first click will set the start (orange) and the second will set the end (turquoise).
-3. Add Barriers: Continue left-clicking to create barriers (black) on the grid.
-4. Start the Algorithm: Press Space to start the selected algorithm.
+How It Works:
+1. Choose Algorithm: Press A for A* or D for Dijkstra.
+2. Set Start & End: Left-click to place the start (coral color) and end (steel blue color) points on the grid. The first click will set the start point, and the second click will set the end point.
+3. Add Barriers: Left-click to add barriers (dark gray color) to the grid after setting the start and end points.
+4. Run the Algorithm: Press Space to start the selected algorithm and visualize the process.
 5. Reset: Press C to clear the grid and start again.
 
+Color Guide:
+1. Lime: Nodes that are in the open set and are currently being evaluated.
+2. Crimson: Closed nodes that have already been evaluated.
+3. Purple: Final path from start to end.
+4. White: Unvisited nodes, representing empty space.
