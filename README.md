@@ -1,4 +1,4 @@
-Pathfinding Algorithm Visualization
+**Pathfinding Algorithm Visualization**
 
 This project visualizes two pathfinding algorithms, Dijkstra's and A*, using Python and the PyGame library. The goal is to let users interactively create start and end points, set barriers, and watch the algorithm find the shortest path in real-time.
 
